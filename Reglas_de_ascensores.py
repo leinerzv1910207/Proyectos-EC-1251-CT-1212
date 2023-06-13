@@ -39,7 +39,7 @@ if Q > V_n: #condiciones para calcular tiempo de viaje.
 	TVC = ((((2*H_a)/(V_n))) - ((H_s/V_n)) + ((2*V_n)/(1)) + (((2*H_s)/((n_p*(Q)))*(n_p-1)) + (T_1*(n_p+1) + (T_2)*(P_v) )))
 	print(TVC , "Segundos de viaje sobre las plantas. ")
 else:
-	TVC = ((((2*H_a)/(v_n)))-((H_s/V_n)) + ((2*V_n)/(1)) + (((2*H_s)/((n_p*(Q))*n_p-1)) + (T_1*(n_p+1w) + (T_2)*(P_v) )))
+	TVC = ((((2*H_a)/(v_n)))-((H_s/V_n)) + ((2*V_n)/(1)) + (((2*H_s)/((n_p*(Q))*n_p-1)) + (T_1*(n_p+1) + (T_2)*(P_v) )))
 	print(TVC , "s del viaje completo")
 
 Num = int(input("Ingrese el valor entero del tiempo de viaje para el calculo del tiempo adicional: "))
